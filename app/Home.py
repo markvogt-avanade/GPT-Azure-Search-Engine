@@ -3,7 +3,6 @@ import streamlit as st
 st.set_page_config(page_title="GPT Smart Search", page_icon="📖", layout="wide")
 
 st.image("https://user-images.githubusercontent.com/113465005/226238596-cc76039e-67c2-46b6-b0bb-35d037ae66e1.png")
-st.image("https://github.com/markvogt-avanade/GPT-Azure-Search-Engine/tree/main/images/logo-avanade-transparent.png")
 st.image("https://raw.githubusercontent.com/markvogt-avanade/GPT-Azure-Search-Engine/main/.github/images/logo-avanade-transparent.png")
 
 st.header("GPT Smart Search Engine")
