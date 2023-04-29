@@ -66,14 +66,19 @@ with st.sidebar:
 Ask a question that you think can be answered with the information in about 10k Arxiv Computer Science publications from 2020-2021 or in 52k Medical Covid-19 Publications from 2020.
 
 For example:
-- What are markov chains?
-- List the authors that talk about Gradient Boosting Machines
-- How does random forest work?
-- What kind of problems can I solve with reinforcement learning? Give me some real life examples
-- What kind of problems Turing Machines solve?
-- What are the main risk factors for Covid-19?
-- What medicine reduces inflamation in the lungs?
-- Why Covid doesn't affect kids that much compared to adults?
+- What is a SISA? 
+- What does a SISA do? 
+- How does a consultant become a SISA?
+- How long does it typically take to become a SISA? 
+- 
+- How to operate a Cummins X15 generator? 
+- How to disassemble a Cummins X14 generator? 
+- What are the power requirements of a Cummins X13 generator? 
+- 
+- What is Customer Data Protection? 
+- How does Avanade provide CDP? 
+- Who should I contact if I have questions about CDP? 
+
     
     \nYou will notice that the answers to these questions are diferent from the open ChatGPT, since these papers are the only possible context. This search engine does not look at the open internet to answer these questions. If the context doesn't contain information, the engine will respond: I don't know.
     """)
