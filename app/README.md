@@ -22,6 +22,12 @@ export AZURE_SEARCH_ENDPOINT=<Enter your value>
 export AZURE_SEARCH_KEY=<Enter your value>
 export AZURE_OPENAI_ENDPOINT=<Enter your value>
 export AZURE_OPENAI_API_KEY=<Enter your value>
+
+export AZURE_SEARCH_ENDPOINT="https://azure-cog-search-gtekhenxlqzvu.search.windows.net"
+export AZURE_SEARCH_KEY="EPpDuVjPveOV8hhzKu7e17H0AB7QIzrWGqumQK87uEAzSeB9FqUZ"
+export AZURE_OPENAI_ENDPOINT="https://oai-2023-mondelez-chatgpt-01.openai.azure.com/"
+export AZURE_OPENAI_API_KEY="f86736ea92444e9f836b69de0512ca55"
+
 ```
 3. Run the Streamlit server🚀
 ```bash
@@ -32,6 +38,8 @@ streamlit run Home.py
 https://{Your-AMLCompute-Name}-{port}.{your-region}.instances.azureml.ms/ 
   
 Example: https://myComputeInstance-8501.southcentralus.instances.azureml.ms/ 
+
+Mark's: https://compute-instance-MEV02-8501.eastus.instances.azureml.ms
  
 ## To Deploy in Azure Web App Service
 
