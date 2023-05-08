@@ -10,13 +10,17 @@ st.header("ChatGPT-Powered Azure Cognitive (Smart) Search Engine")
 
 st.markdown("---")
 st.markdown("""
-    GPT Smart Search allows you to ask questions about your
-    documents and get accurate answers with instant citations.
+    GPT Smart Search allows you to ask questions about your documents and get accurate answers with instant citations.
     
     This Avanade-Microsoft demonstration engine combines the power of Azure Cognitive Search and Azure OpenAI's ChatGPT to deliver a powerful new search experience. 
-    This demo searches and summarizes/distills information from the following narrow-topic document corpuses:
-    - ~100 [Documents related specifically to System Integration Solution Architects](https://avanade.sharepoint.com/sites/NASolutionArchitectCommunity)
-    - ~100 [Industrial-grade electrical machinery commonly used & maintained by field engineers in the Utilities field](https://www.google.com/search?q=industrial+electrical+equipment&sxsrf=APwXEde4jg3_N697hUeuWgc-S9DIkMHCEg%3A1682735938332&source=hp&ei=QoNMZL3ZD6iI0PEPwN2xYA&iflsig=AOEireoAAAAAZEyRUsc80i1AI4cB11H6lylvJ0KLe0y1&ved=0ahUKEwi9gufuh87-AhUoBDQIHcBuDAwQ4dUDCAs&uact=5&oq=industrial+electrical+equipment&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yCAgAEBYQHhAPMggIABAWEB4QDzoHCCMQ6gIQJzoHCCMQigUQJzoECCMQJzoLCAAQgAQQsQMQgwE6DgguEIAEELEDEMcBENEDOgsILhCABBDHARDRAzoICC4QgAQQsQM6CAguEIAEENQCOg4IABCABBCxAxCDARDJAzoICAAQigUQkgM6CwguEIMBELEDEIoFOgsILhCABBCxAxCDAToOCC4QgAQQsQMQgwEQ1AI6BQguEIAEOggIABCABBCxAzoLCC4QgAQQsQMQ1AI6CwguENQCELEDEIAEOgsILhCABBDHARCvAToLCAAQigUQsQMQgwE6CwguEK8BEMcBEIAEULoGWIE6YKo-aAFwAHgAgAHYAogBzBiSAQgyMi43LjEuMZgBAKABAbABCg&sclient=gws-wiz#bsht=Cgdic2h3Y2hwEgQIBDAB)
+    
+    Our demo searches and "generates" (summarizes/distills) information from the following narrow-topic document corpuses:
+    - Arxiv Computer Science publications from 2020-2021 (10,000 articles)
+    - Medical Covid-19 Publications from 2020 (52,000 records)
+    - Avanade Library on SISAs (25+ documents)
+    - Library of Industrial Electrical Machinery (350+ documents)
+    - Accenture Library on Customer Data Protection (10+ documents)
+    
     
     **👈 Select a demo from the sidebar** to see some examples of what Azure Cognitive Search and Azure OpenAI Service can do!
     ### Want to learn more?

@@ -63,21 +63,29 @@ st.header("GPT Smart Search Engine")
 with st.sidebar:
     st.markdown("""# Instructions""")
     st.markdown("""
-Ask a question that you think can be answered with the information in about 10k Arxiv Computer Science publications from 2020-2021 or in 52k Medical Covid-19 Publications from 2020.
+Ask a question that you think can be answered with the information from the following "mini-libraries": 
+- Arxiv Computer Science publications from 2020-2021 (10,000 articles)
+- Medical Covid-19 Publications from 2020 (52,000 records)
+- Avanade Library on SISAs (25 documents)
+- Library of Industrial Electrical Machinery (350 documents)
 
 For example:
-- What is a SISA? 
 - What does a SISA do? 
-- How does a consultant become a SISA?
-- How long does it typically take to become a SISA? 
+- How does someone become a SISA?
+- How long does it take to become a SISA? 
 - 
-- How to operate a Cummins X15 generator? 
-- How to disassemble a Cummins X14 generator? 
-- What are the power requirements of a Cummins X13 generator? 
+- Explain how to install a generator
+- Explain how to install a generator using a numbered list
 - 
 - What is Customer Data Protection? 
 - How does Avanade provide CDP? 
 - Who should I contact if I have questions about CDP? 
+- 
+- Explain a Markov chain
+- Explain a Markov chain to a child
+- Explain a Markov chain to a college student
+- 
+- Generate a 1-page report on electrical generators
 
     
     \nYou will notice that the answers to these questions are diferent from the open ChatGPT, since these papers are the only possible context. This search engine does not look at the open internet to answer these questions. If the context doesn't contain information, the engine will respond: I don't know.
