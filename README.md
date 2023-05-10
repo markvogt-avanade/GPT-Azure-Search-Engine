@@ -55,6 +55,7 @@ Note: (Pre-requisite) You need to have an Azure OpenAI service already created
    - "text-embedding-ada-002"
 3. Create a Resource Group where all the assets of this accelerator are going to be. Azure OpenAI can be in different RG or a different Subscription.
 4. ClICK BELOW to create an Azure Cognitive Search Service and Cognitive Services Account:
+
 MARK & MICHAEL TIP: right-mouse-click on the button and open it in a NEW TAB (so you don't lose your place)
 MARK & MICHAEL TIP: IF the "Custom Template Wizard" throws an ERROR about "you didn't sign a RESPONSIBLE USE AGREEMENT YET", then do this: 
 - OPEN a new tab
