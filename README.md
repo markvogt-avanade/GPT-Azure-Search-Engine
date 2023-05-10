@@ -77,6 +77,15 @@ _Note: If you have never created a cognitive multi-service account before, pleas
 ```
 pip install -r ./requirements.txt
 ```
+MARK & MICHAEL TIP: YOU'RE NOT READY TO "RUN" THE NOTEBOOKS YET - YOU NEED TO EDIT THEM FIRST
+- OPEN Notebook 01
+- REPLACE any hard-coded CONSTANTS (from MICROSOFT'S demo subscription) with constants from your OWN subscription !!! 
+- - DATASOURCE_CONNECTION_STRING
+- - BLOB_CONTAINER_NAME
+- - AZURE_SEARCH_API_ENDPOINT
+- - AZURE_SEARCH_API_KEY
+- etc etc etc
+
 8. Run 01-Load-Data-ACogSearch.ipynb:
   - Loads 9.8k PDFs into your Search Engine and create the first index with AI skills
 9. Run 02-LoadCSVOneToMany-ACogSearch.ipynb and:
