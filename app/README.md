@@ -41,6 +41,9 @@ Example: https://myComputeInstance-8501.southcentralus.instances.azureml.ms/
 
 Mark's: https://compute-instance-MEV02-8501.eastus.instances.azureml.ms
  
+Mike's: https://compute-DS11v2_mcv01-8501.eastus.instances.azureml.ms
+
+
 ## To Deploy in Azure Web App Service
 
 [![Deploy To Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fpablomarin%2FGPT-Azure-Search-Engine%2Fmain%2Fapp%2Fazuredeploy.json)
